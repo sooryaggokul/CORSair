@@ -1,4 +1,4 @@
-# CORSair
+# 🌞CORSair
 
 A browser-based **CORS misconfiguration** testing tool.
 
