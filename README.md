@@ -13,6 +13,7 @@ CORSair runs three checks against your target URL and compares the results:
 Reachability probe — a no-cors request to confirm the endpoint is actually reachable (so network/DNS/TLS failures aren't mistaken for CORS decisions).
 Uncredentialed read — a cors request with credentials: omit.
 Credentialed read — a cors request with credentials: include (cookies attached).
+
 🔴 HIGH 
 Authenticated data is readable cross-origin — the server allows a specific origin with credentials. Private, cookie-authed data could be read by another origin.
 🟡 INFO
